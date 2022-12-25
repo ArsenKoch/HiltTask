@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HiltTask</string>
+    <string name="no_data">no data</string>
+    <string name="get_data">get data</string>
+    <string name="put_data">put data</string>
+    <string name="save_data">save data</string>
+</resources>
