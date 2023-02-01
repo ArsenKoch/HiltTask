@@ -1,8 +1,6 @@
-package com.example.mvvmexample.data
+package com.example.hilttask.data
 
 import android.content.Context
-import com.example.hilttask.data.User
-import com.example.hilttask.data.UserStorage
 
 private const val SHARED_PREFS_NAME = "shared_prefs_name"
 private const val KEY_FIRST_NAME = "firstName"

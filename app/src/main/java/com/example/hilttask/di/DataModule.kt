@@ -4,7 +4,7 @@ import android.content.Context
 import com.example.hilttask.data.UserRepositoryImpl
 import com.example.hilttask.data.UserStorage
 import com.example.hilttask.domain.UserRepository
-import com.example.mvvmexample.data.SharedPrefUserStorage
+import com.example.hilttask.data.SharedPrefUserStorage
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -14,7 +14,7 @@ import javax.inject.Singleton
 
 @Module
 @InstallIn(SingletonComponent::class)
-class DataModule() {
+class DataModule {
 
     @Provides
     @Singleton
